@@ -1,0 +1,105 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	--main_hue: 64;
+	--2nd-color:calc(var(--main_hue) - 120);
+	--3rd-color:calc(var(--main_hue) + 120);
+}
+header{
+	text-align: center;
+	padding: 20px;
+	margin: 20px 300px;
+	background-color: hsl(var(--main_hue), 60%, 50%);
+}
+header:hover{
+	background-color: hsl(var(--2nd-color), 60%, 50%);
+}
+h1{
+	font-size: 55px;
+	font-family: 'Fredoka One', cursive;
+	color: hsl(var(--2nd-color), 50%, 50%);
+}
+h1:hover{
+		color: hsl(var(--3rd-color), 60%, 50%);
+}
+h3{
+	font-size: 30px;
+	color: hsl(var(--2nd-color), 50%, 50%);
+	font-family: 'Oswald', sans-serif;
+	font-variant-caps: all-small-caps;
+}
+p{
+	font-size: 15px;
+}
+input{
+	padding: 12px;
+	width: 80%;
+	border: none;
+	border-bottom: 3px solid hsl(var(--2nd-color), 60%, 50%);
+	background-color: hsl(var(--3rd-color), 60%, 50%);
+}
+input:hover{
+	background-color: hsl(var(--main_hue), 60%, 50%);
+	color: white;
+}
+textarea{
+	padding: 12px;
+	width: 80%;
+	height: 70px;
+	border: none;
+	border-bottom: 3px solid hsl(var(--2nd-color), 60%, 50%);
+	background-color: hsl(var(--3rd-color), 60%, 50%);
+}
+textarea:hover{
+	background-color: hsl(var(--main_hue), 60%, 50%);
+	color: white;
+}
+button{
+	padding:8px;
+	width: 25%;
+	border: 3px solid hsl(var(--2nd-color), 60%, 50%);
+	margin: 20px 0px;
+	background-color: hsl(var(--2nd-color), 60%, 50%);
+	color: white;
+	font-size: 15px;
+}
+button:hover{
+	background-color: white;
+	color: hsl(var(--2nd-color), 60%, 50%);
+}
+button:active{
+	background-color: white;
+	color: hsl(var(--2nd-color), 60%, 50%);
+}
+#timeline{
+	background-color: hsl(var(--main_hue), 50%, 50%);
+	padding: 25px;
+	text-align: justify;
+	font-size: 15px;
+	line-height: 16px;
+	border-left: 4px solid hsl(var(--2nd-color), 60%, 50%);
+}
+#timeline:hover{
+	background-color: hsl(var(--2nd-color), 50%, 50%);
+	border-left: 4px solid hsl(var(--3rd-color), 60%, 50%);
+	color: white;
+}
+.info{
+	padding: 10px 0px 20px 0px;
+	font-size: 13px;
+	line-height: 13px;
+}
+#container{
+	height: 65vh;
+	width: 60%;
+	color: black;
+	padding: 20px;
+	margin: 20px auto;
+}
+.col{
+	float: left;
+	height: auto;
+	}
+.c50{
+	width: 50%;
+	height: auto;
+}
